@@ -1,9 +1,9 @@
 .App {
-  text-align: center;
+  text-align: flex;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60vmin;
   pointer-events: none;
 }
 
@@ -14,25 +14,46 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2c4835;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: pink;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #19b84b;
+}
+/* App.css or any other CSS file */
+
+.link {
+  color: #19b84b; /* Set the color for the links */
+  text-decoration: none; /* Remove underline if not needed */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Optional: Style for hover */
+.link:hover {
+  color: #17a743; /* Change to a darker shade or a different color on hover */
+  text-decoration: underline; /* Optional: underline the link when hovered */
+}
+
+.pet-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.pet-card img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pet-card:hover {
+  transform: scale(1.05);
 }
