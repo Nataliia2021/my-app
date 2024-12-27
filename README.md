@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Video Demo: <URL HERE>
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+Welcome to the **Pet Adoption Project**! This web application allows users to browse adoptable pets, like or dislike them, and make a donation for each like. The user can interact with a gallery of pets, and each like will contribute $1 towards the pet's care. Additionally, the application plays different sounds for different animals (dog or cat sounds) and even a sad sound when a pet is unliked. It's a fun and interactive way to show support for animal adoption!
 
-### `npm start`
+The application uses React for the front end and features sound effects, animations, and hover effects to make the user experience more engaging.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Like & Dislike**: Users can like or dislike a pet, which will update their adoption status and trigger a donation.
+- **Donation Tracking**: Each like contributes $1 to the total donation for the pets.
+- **Sound Effects**: Different sounds play when interacting with cats or dogs, and a sad sound plays when a like is removed.
+- **Interactive Animations**: Hover effects on pet images for a more engaging user experience.
+- **Mobile Responsive**: The application adjusts to fit various screen sizes for a smooth experience on mobile devices.
 
-### `npm test`
+## Project Title
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Pet Adoption Gallery
 
-### `npm run build`
+## Video URL
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Here is the link to the demo video showcasing the functionality of the application:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Pet Adoption Project Demo Video](https://www.example.com/demo-video-url)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Replace `https://www.example.com/demo-video-url` with the actual URL of your video.
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React**: JavaScript library for building user interfaces.
+- **use-sound**: React hook for handling sound effects.
+- **CSS**: For styling and animations.
+- **HTML**: Basic structure of the page.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to Run the Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/pet-adoption-project.git
+   Navigate into the project folder:
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+cd project
+Install the dependencies:
 
-## Learn More
+bash
+npm install
+Run the project:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Local: http://localhost:3000
+On Your Network: http://10.0.0.86:3000

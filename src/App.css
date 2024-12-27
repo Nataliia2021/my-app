@@ -36,15 +36,16 @@
 
 /* Optional: Style for hover */
 .link:hover {
-  color: #17a743; /* Change to a darker shade or a different color on hover */
+  color: #cadad2; /* Change to a darker shade or a different color on hover */
   text-decoration: underline; /* Optional: underline the link when hovered */
 }
 
 .pet-gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  justify-content: center; /* Center the cards horizontally */
+  gap: 20px; /* Space between the cards */
+  padding: 0 20px;
 }
 
 .pet-card img {
@@ -56,4 +57,65 @@
 
 .pet-card:hover {
   transform: scale(1.05);
+}
+
+.logo-frame {
+  max-width: 650px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.video-frame {
+  max-width: 900px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(203, 195, 195, 0.1);
+}
+video::-webkit-media-controls {
+  display: none;
+}
+.logo-frame:hover {
+  transform: scale(1.3);
+}
+.profile-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.pet-card h3 {
+  font-size: 1.5rem;
+  color: #efdede;
+  margin-bottom: 10px;
+}
+
+.pet-card p {
+  color: #d1dad0;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.pet-card button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pet-card button:hover {
+  background-color: #45a049;
+}
+
+.pet-card button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  color: rgb(202, 195, 195);
+  margin: 2rem;
+  text-align: center;
 }

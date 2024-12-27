@@ -1,5 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'; // Import Router components
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  NavLink,
+} from 'react-router-dom'; // Import Router components
 import './App.css';
 // Import pages
 import Home from './pages/Home';
@@ -13,21 +18,33 @@ function App() {
       <div className="App">
         <header className="App-header">
           {/* Removed Logo */}
-          
+
           {/* Navigation Links */}
           <nav>
             <ul>
               <li>
-              <Link to="/" className="link">Home</Link> {/* Apply the 'link' class */}
+                <NavLink to="/" className="link" activeClassName="active">
+                  Home
+                </NavLink>
               </li>
               <li>
-              <Link to="/adopt" className="link">Adopt a Pet</Link> {/* Apply the 'link' class */}
+                <NavLink to="/adopt" className="link" activeClassName="active">
+                  Adopt a Pet
+                </NavLink>
               </li>
               <li>
-              <Link to="/form" className="link">Adopt Form</Link> {/* Apply the 'link' class */}
+                <NavLink to="/form" className="link" activeClassName="active">
+                  Adopt Form
+                </NavLink>
               </li>
               <li>
-                <Link to="/profile">Profile</Link>  {/* Link to the Profile page */}
+                <NavLink
+                  to="/profile"
+                  className="link"
+                  activeClassName="active"
+                >
+                  Profile
+                </NavLink>
               </li>
             </ul>
           </nav>
