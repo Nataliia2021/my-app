@@ -94,11 +94,11 @@ function Adopt() {
     <div className="App">
       <header className="App-header">
         <h1>Donate today to a pet</h1>
-        <p>Your like gives $1 to a pet!</p>
+        <p1>Your like gives $1 to a pet!</p1>
 
         {/* Display the total donation amount */}
         <div className="total-donation">
-          <h2>Total Donation: ${totalDonation}</h2>
+          <h1>Total Donation: ${totalDonation}</h1>
         </div>
 
         <div className="pet-gallery">

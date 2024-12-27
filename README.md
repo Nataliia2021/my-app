@@ -11,6 +11,7 @@ The application uses React for the front end and features sound effects, animati
 ### Features:
 
 - **Like & Dislike**: Users can like or dislike a pet, which will update their adoption status and trigger a donation.
+- **JavaScript**: Core programming language used throughout the project to handle dynamic content, form submissions, authentication, routing, and more.
 - **Donation Tracking**: Each like contributes $1 to the total donation for the pets.
 - **Sound Effects**: Different sounds play when interacting with cats or dogs, and a sad sound plays when a like is removed.
 - **Interactive Animations**: Hover effects on pet images for a more engaging user experience.
@@ -18,40 +19,35 @@ The application uses React for the front end and features sound effects, animati
 
 ## Project Title
 
-Pet Adoption Gallery
-
-## Video URL
-
-Here is the link to the demo video showcasing the functionality of the application:
-
-[Pet Adoption Project Demo Video](https://www.example.com/demo-video-url)
-
-> Replace `https://www.example.com/demo-video-url` with the actual URL of your video.
+Pet Adoption App
 
 ## Technologies Used
 
 - **React**: JavaScript library for building user interfaces.
+- **React Router**: For managing routes and navigation within the app.
 - **use-sound**: React hook for handling sound effects.
+- **Firebase Authentication**: For user login and registration functionality.
 - **CSS**: For styling and animations.
 - **HTML**: Basic structure of the page.
 
+## This app integrates Firebase Authentication for managing user logins.
+
+Both LoginPage and RegisterPage are connected to Firebase Authentication.
+On successful login or registration, the setUser function is called to update the app’s state and mark the user as logged in.
+
 ## How to Run the Project
 
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/pet-adoption-project.git
-   Navigate into the project folder:
-   ```
+Step 1: Clone this repository to your local machine:
 
-bash
+git clone https://github.com/your-username/pet-adoption-project.git
+
+Step 2: Navigate into the Project Folder
 cd project
-Install the dependencies:
 
-bash
+Step 3: Install Dependencies
 npm install
-Run the project:
 
-bash
+Step 4: Run the Project
 npm start
 
 Local: http://localhost:3000

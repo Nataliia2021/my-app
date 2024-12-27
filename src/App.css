@@ -24,22 +24,6 @@
   color: pink;
 }
 
-.App-link {
-  color: #19b84b;
-}
-/* App.css or any other CSS file */
-
-.link {
-  color: #19b84b; /* Set the color for the links */
-  text-decoration: none; /* Remove underline if not needed */
-}
-
-/* Optional: Style for hover */
-.link:hover {
-  color: #cadad2; /* Change to a darker shade or a different color on hover */
-  text-decoration: underline; /* Optional: underline the link when hovered */
-}
-
 .pet-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -118,4 +102,44 @@ video::-webkit-media-controls {
   color: rgb(202, 195, 195);
   margin: 2rem;
   text-align: center;
+}
+
+/* Make the nav a flex container */
+nav {
+  display: flex;
+  justify-content: center; /* Center the navigation links */
+  align-items: center; /* Vertically center the links */
+  padding: 10px 0;
+}
+
+/* Style for the unordered list */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display list items horizontally */
+}
+
+/* Style for each list item */
+nav li {
+  margin-right: 20px; /* Space between the links */
+}
+
+/* Style for links */
+nav .link {
+  color: #19b84b;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Style for active link (when the page is active) */
+nav .active {
+  color: #d9e3db; /* Active color (golden/orange) */
+  text-decoration: underline; /* Underline active link */
+}
+
+nav .link:hover {
+  color: #cadad2; /* Change color on hover */
+  text-decoration: underline; /* Add underline on hover */
 }

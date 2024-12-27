@@ -1,0 +1,72 @@
+/* User Profile Page */
+.profile-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  color: white;
+}
+
+/* Video Header */
+.video-header {
+  width: 100%; /* Ensure the video takes full width of the screen */
+  height: 40vh; /* Adjust height based on your preference, you can increase this value to make it taller */
+  position: relative;
+  overflow: hidden;
+}
+
+.video-header-bg {
+  object-fit: cover; /* Ensures the video covers the area without distortion */
+  width: 100%; /* Ensures the video spans the full width */
+  height: 100%; /* Makes the video cover the entire height of the container */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Section Styling */
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #eeeeee;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li:hover {
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+p {
+  color: #aaaaaa;
+  font-size: 1.2rem;
+}
+
+/* Donation Section */
+.total-donation {
+  font-size: 1.5rem;
+  color: #f5f5f5;
+  margin-top: 10px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .video-header {
+    height: 30vh; /* Adjust the video height for smaller screens */
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+}

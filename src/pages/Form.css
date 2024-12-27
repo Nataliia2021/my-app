@@ -7,80 +7,112 @@
   width: 100%;
   height: auto;
 }
+/* Heading */
 .heading {
-  text-align: center;
-  font-size: 2rem;
-  padding: 3rem;
-  color: rgb(90, 12, 12);
+  font-size: 26px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 20px;
 }
-.separator {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+
+/* Form Container */
 .form {
-  width: 100%;
-  height: 500px;
-  flex-direction: column;
-  margin: 3rem;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
+
+/* Form Paragraph */
+form p {
+  font-size: 18px;
+  color: #34495e;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+/* Input Fields Styling */
 .input-fields {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  gap: 16px;
 }
-.main input {
-  margin: 2rem;
-  background-color: white;
-  color: grey;
-  border-radius: 5px;
-  width: 50%;
-  padding: 0.5rem 0.5rem;
-  border: 3px solid rgba(120, 120, 120, 0.5);
+
+.input-fields input {
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: all 0.3s ease;
 }
-.main {
-  margin-top: 2rem;
+
+.input-fields input:focus {
+  border-color: #3498db; /* Focused input border color */
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.2); /* Light shadow effect on focus */
 }
+
+/* Submit Button Styling */
 .submit-Button {
-  font-weight: 500;
-  padding: 0.6rem 1.4rem;
-  background: linear-gradient(-225deg, #cbbacc 0%, #2580b3 100%);
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #3498db;
+  color: #fff;
   border: none;
-  border-radius: 4px;
-  transition: all 300ms ease-in;
-  width: 30%;
-  margin: auto;
-}
-.submit-Button:hover {
+  border-radius: 8px;
   cursor: pointer;
-  transform: scale(1.1);
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
 }
-.main > p {
-  text-align: center;
-  font-size: 1.5rem;
-  color: rgb(213, 233, 229);
+
+.submit-Button:hover {
+  background-color: #2980b9; /* Hover effect on submit button */
 }
+
+/* Guide Section */
 .guide {
-  width: 90%;
-  height: auto;
-  margin: auto;
-  border: 2px solid pink;
-  margin-bottom: 5rem;
-  background-repeat: no-repeat;
-  background-size: cover;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+
+/* Guide Header */
 .guide-head {
-  text-align: lefst;
-  font-weight: 500px;
-  font-size: 2rem;
-  padding: 2rem 3.5rem;
-  color: rgb(180, 22, 48);
-  text-decoration: underline;
+  font-size: 22px;
+  font-weight: bold;
+  color: #34495e;
+  margin-bottom: 20px;
 }
-.list {
-  line-height: 1.5rem;
-  margin: 2rem;
-  padding: 0 2rem;
-  color: rgb(162, 58, 75);
+
+/* List for Guide */
+.list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list li {
+  font-size: 16px;
+  background: linear-gradient(
+    0deg,
+    rgb(247, 247, 247) 23.8%,
+    rgb(252, 221, 221) 92%
+  );
+  width: 100%;
+  height: auto;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  color: #7f8c8d;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-top: 30px;
 }

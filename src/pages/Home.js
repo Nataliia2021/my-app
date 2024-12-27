@@ -19,7 +19,7 @@ const Home = () => {
           </section>
         </div>
         <h1>Welcome to the Home Page!</h1>
-        <p>Here you can help to find a new family for a pet</p>
+        <p1>Here you can help to find a new family for a pet</p1>
       </header>
       <div className="footer-text"> @2024| my final project</div>
     </div>
